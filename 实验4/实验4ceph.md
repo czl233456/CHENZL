@@ -41,11 +41,11 @@ sudo yum install openssh-server
 ssh - keygen
 ```
 
-![1](C:\Users\Administrator\Desktop\1.png)
+![1](https://github.com/czl233456/CHENZL/blob/master/%E5%AE%9E%E9%AA%8C4/image4/1.png)
 
 2.配置ssh的config
 
-![2](C:\Users\Administrator\Desktop\2.png)
+![2](https://github.com/czl233456/CHENZL/blob/master/%E5%AE%9E%E9%AA%8C4/image4/2.png)
 
 3.将密钥复制到每个Ceph节点的用户名替换。 
 
@@ -53,7 +53,7 @@ ssh - keygen
 ssh-copy-id Ceph节点IP
 ```
 
-![3](C:\Users\Administrator\Desktop\3.png)
+![3](https://github.com/czl233456/CHENZL/blob/master/%E5%AE%9E%E9%AA%8C4/image4/3.png)
 
 
 
@@ -79,11 +79,11 @@ ceph-deploy install admin-node osd1 osd2 mon1
 ceph-deploy mon create-initial
 ```
 
-![ceph1687_WPS图片](C:\Users\Administrator\Desktop\4.png)
+![ceph1687_WPS图片](https://github.com/czl233456/CHENZL/blob/master/%E5%AE%9E%E9%AA%8C4/image4/4.png)
 
 ```
 ceph-deploy gatherkeys mon1
 ```
 
-![5](C:\Users\Administrator\Desktop\5.png)
+![5](https://github.com/czl233456/CHENZL/blob/master/%E5%AE%9E%E9%AA%8C4/image4/5.png)
 
