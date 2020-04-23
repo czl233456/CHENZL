@@ -14,7 +14,7 @@
 
 截图：
 
-![1](C:\Users\Administrator\Desktop\Android\img3\1.png)
+![1](./Android/img3/1.png)
 
 ### ConstraintLayout：
 
@@ -31,7 +31,7 @@
 
 截图：
 
-![2](C:\Users\Administrator\Desktop\Android\img3\2.png)
+![2](./Android/img3/2.png)
 
 ### TableLayout：
 
@@ -50,4 +50,4 @@
 
 截图：
 
-![3](C:\Users\Administrator\Desktop\Android\img3\3.png)
+![3](./Android/img3/3.png)
