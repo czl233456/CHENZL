@@ -1,0 +1,63 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loginForm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 标题栏 -->
+    <TableRow
+        android:paddingStart="12dp"
+        android:background="#FFA000"
+        android:paddingVertical="15dp">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ANDROID APP"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow android:paddingStart="12dp">
+        <!-- 输入用户名的文本框 -->
+        <EditText android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:textSize="25sp"
+            android:maxLength="16"
+            android:ems="12"
+            android:selectAllOnFocus="true" />
+    </TableRow>
+
+    <TableRow android:paddingStart="12dp">
+        <!-- 输入密码的文本框 -->
+        <EditText android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textSize="25sp"
+            android:maxLength="16"
+            android:inputType="textPassword" />
+    </TableRow>
+
+    <!-- 水平的按钮 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:textSize="22sp"
+            android:onClick="cancel"/>
+        <Button
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="Sign in"
+            android:textSize="22sp"
+            android:onClick="sign_in"/>
+    </LinearLayout>
+</TableLayout>
