@@ -15,13 +15,13 @@
 </LinearLayout>
 ```
 
-![4](C:\Users\Administrator\Desktop\mid\4.png)
+![4](https://github.com/czl233456/CHENZL/blob/master/Android\mid\4.png)
 
 1.NoteList中显示条目增加时间戳显示
 
 
 
-<img src="C:\Users\Administrator\Desktop\mid\1.png" alt="1" style="zoom:80%;" />
+![1](https://github.com/czl233456/CHENZL/blob/master/Android\mid\1.png)
 
 
 
@@ -39,7 +39,7 @@
 <?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"    android:layout_width="match_parent"    android:layout_height="match_parent"    android:gravity="center_horizontal"    android:orientation="vertical">    <LinearLayout        android:layout_width="match_parent"        android:layout_height="wrap_content"        android:layout_marginTop="50dp"        android:gravity="center"        android:orientation="horizontal">        <ImageView            android:layout_width="60dp"            android:layout_height="60dp"            android:src="@drawable/sreach" />        <EditText            android:layout_marginLeft="10dp"            android:id="@+id/sreacch"            android:layout_width="250dp"            android:layout_height="60dp"            android:hint="笔记标题"            android:textSize="30sp"/>    </LinearLayout>    <Button        android:id="@+id/button_sreach"        android:layout_marginTop="20dp"        android:layout_width="200dp"        android:layout_height="wrap_content"        android:background="@drawable/button"        android:text="查询"        android:textSize="20sp"        android:textScaleX="1"        android:textColor="#ffffff"/></LinearLayout>
 ```
 
-![2](C:\Users\Administrator\Desktop\mid\2.png)
+![2](https://github.com/czl233456/CHENZL/blob/master/Android\mid\2.png)
 
 代码：
 
@@ -47,4 +47,4 @@
 <?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"    android:layout_width="match_parent"    android:layout_height="match_parent"    android:orientation="vertical">    <RelativeLayout        android:layout_width="match_parent"        android:layout_height="wrap_content"        android:gravity="center_vertical">        <Button            android:id="@+id/change_node"            android:layout_width="wrap_content"            android:layout_height="wrap_content"            android:layout_toLeftOf="@+id/delete_node"            android:layout_marginTop="10dp"            android:layout_marginRight="10dp"            android:background="@drawable/button"            android:text="修改"            android:textSize="20sp"            android:textScaleX="1"            android:textColor="#ffffff"/>        <Button            android:id="@+id/delete_node"            android:layout_marginTop="10dp"            android:layout_width="wrap_content"            android:layout_height="wrap_content"            android:layout_alignParentRight="true"            android:layout_marginRight="10dp"            android:background="@drawable/button"            android:text="删除"            android:textSize="20sp"            android:textScaleX="1"            android:textColor="#ffffff"/>    </RelativeLayout>    <EditText        android:id="@+id/detail_node_title"        android:layout_marginLeft="10dp"        android:layout_marginTop="10dp"        android:layout_width="match_parent"        android:layout_height="wrap_content"        android:background="@null"        android:hint="笔记标题"        android:textSize="30sp"/>    <View        android:layout_width="match_parent"        android:layout_height="5dp"        android:background="#D8DDE1"        android:layout_marginTop="10dp"        android:layout_marginRight="10dp"        android:layout_marginLeft="5dp"        ></View>    <EditText        android:id="@+id/detail_node_content"        android:layout_marginLeft="10dp"        android:layout_marginRight="10dp"        android:layout_marginTop="10dp"        android:layout_width="match_parent"        android:layout_height="250dp"        android:background="@null"        android:hint="开始编写内容"        android:gravity="top"        android:textSize="30sp"/>    <TextView        android:id="@+id/detail_type"        android:layout_width="100dp"        android:layout_height="50dp"        android:gravity="center"        android:layout_marginRight="10dp"        android:textSize="25sp"        android:text="#标签"        android:layout_marginLeft="10dp"/>    <LinearLayout        android:layout_width="match_parent"        android:layout_height="wrap_content"        android:layout_marginTop="0dp"        android:layout_marginLeft="10dp"        android:layout_marginRight="10dp"        android:gravity="center_vertical"        android:orientation="horizontal">        <ImageView            android:layout_width="50dp"            android:layout_height="50dp"            android:layout_marginLeft="10dp"            android:src="@drawable/date_img"/>        <TextView        android:id="@+id/detail_date"        android:layout_width="wrap_content"        android:layout_height="50dp"        android:textSize="25sp"        android:layout_marginLeft="5dp"        android:gravity="center_vertical"        android:text="1028-12-01"/>    </LinearLayout></LinearLayout>
 ```
 
-![3](C:\Users\Administrator\Desktop\mid\3.png)
+![3](https://github.com/czl233456/CHENZL/blob/master/Android\mid\3.png)
